@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Connect to NXT" android:id="@+id/connect_item"></item><item android:id="@+id/clearconsole_item" android:title="Clear Console"></item>
+    <item android:title="TestTouchPad" android:id="@+id/test_item"></item>
+    
+</menu>

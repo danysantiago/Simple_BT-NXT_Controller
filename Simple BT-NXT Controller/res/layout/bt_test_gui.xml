@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+    <Button android:text="Send MSG" android:layout_width="wrap_content" android:id="@+id/msg_button" android:onClick="sendMSG" android:layout_height="wrap_content"></Button>
+    <TextView android:text="MSG:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:id="@+id/msg_textbox" android:text="127" android:layout_width="wrap_content" android:singleLine="true" android:maxLength="4" android:layout_height="wrap_content"></EditText>
+    <Button android:text="Connect" android:layout_width="wrap_content" android:id="@+id/connect_button" android:layout_height="wrap_content" android:layout_marginLeft="25dip" android:onClick="connectNXT"></Button>
+    </LinearLayout>
+    <TextView android:text="Console:" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <ListView android:id="@+id/console_listview" android:background="#000000" android:layout_height="match_parent" android:layout_width="match_parent"></ListView>
+</LinearLayout>
